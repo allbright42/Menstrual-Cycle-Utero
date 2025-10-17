@@ -1,6 +1,5 @@
 import React from 'react';
 import { CyclePrediction, Symptom, DailyLog } from '../types';
-// FIX: Import `PlusIcon` which is used in the "Log Period" button.
 import { SparklesIcon, CalendarDaysIcon, TagIcon, DropletIcon, PlusIcon } from './Icons';
 
 const AVAILABLE_SYMPTOMS: Symptom[] = [
